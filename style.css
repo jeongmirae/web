@@ -1,0 +1,94 @@
+*{
+    margin:0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+#page .section:nth-child(1){
+    background:url(img/bg1-08.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(2){
+    background: url(img/bg2-07.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(3){
+    background: url(img/bg03-22.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(4){
+    background: url(img/bg4-04.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(5){
+    background: url(img/bg5-05.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(6){
+    background: url(img/bg6-21.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(7){
+    background: url(img/bg7-13.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(8){
+    background: url(img/bg8-14.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(9){
+    background: url(img/bg9-09.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(10){
+    background: url(img/bg10-19.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(11){
+    background: url(img/bg11-22.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(12){
+    background: url(img/bg12-2.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(13){
+    background: url(img/bg13-22.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(14){
+    background: url(img/bg14.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(15){
+    background: url(img/bg15.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(16){
+    background: url(img/bg16-10.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(17){
+    background: url(img/bg17.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(18){
+    background: url(img/bg18-24.png) no-repeat;
+    background-size: 100% 100%;
+}
+#page .section:nth-child(19){
+    background: url(img/bg19-23.png) no-repeat;
+    background-size: 100% 100%;
+}
+
+/* #page .section:nth-child(4) .slide:nth-child(1){ }
+#page .section:nth-child(4) .slide:nth-child(2){ background-color: darkblue;}
+#page .section:nth-child(4) .slide:nth-child(3){ background-color: darkgoldenrod;}
+#page .section:nth-child(4) .slide:nth-child(4){ background-color: darkgrey;}
+
+#page .section:nth-child(5){background-color: lightcoral;}
+#page .section:nth-child(6){background-color: lightgrey;}
+#page .section:nth-child(7){background-color: darkmagenta;} */
