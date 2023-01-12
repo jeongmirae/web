@@ -123,3 +123,8 @@ $('.gnb').hide();
 setTimeout(function(){
     $('#page .section:nth-child(1) #n2').css('opacity','1')
 },3000);
+
+$('body').jpreLoader({
+    splashID:'#jsp',
+    loaderVPos:'80%'
+});
