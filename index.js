@@ -127,4 +127,9 @@ setTimeout(function(){
 $('body').jpreLoader({
     splashID:'#jsp',
     loaderVPos:'80%'
+},function(){
+    // console.log(1);
+    
+    $('#n1').show().addClass('n1ani');
+    $('#n2').delay(700).show().css('opacity','1').addClass('n2ani');
 });

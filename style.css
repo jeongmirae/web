@@ -29,7 +29,14 @@ ul{
     overflow: hidden;
     height: 30px;
     border-right: 1px solid black;
-    animation:  typing 3s 2s steps(11) , cur 1s steps(1) infinite;
+    display: none;
+    
+}
+#page .section:nth-child(1) .n1ani{
+    animation:  typing 3s steps(11) , cur 1s steps(1) infinite;
+}
+#page .section:nth-child(1) .n2ani{
+    animation: typing 3s 3s steps(10) , cur 1s steps(1) infinite;
 }
 @keyframes typing{
     from{
@@ -54,8 +61,8 @@ ul{
     overflow: hidden;
     height: 30px;
     border-right: 1px solid black;
-    opacity: 0;
-    animation: typing 3s 5s steps(10) , cur 1s steps(1) infinite;
+display: none;
+opacity: 0;
 }
 #page .section:nth-child(1) #n2 span{
     color: white;
