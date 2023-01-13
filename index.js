@@ -58,6 +58,23 @@ $('#page').fullpage({
                 opacity:0,
             },00);
         }
+        if(destination.anchor == "10page"){
+            $('#page .section:nth-child(10) .sns1').animate({
+                left:0
+            },300,function(){
+                $('#page .section:nth-child(10) .sns2').animate({
+                    right:0
+                },300);
+            });
+        }else{
+            $('#page .section:nth-child(10) .sns1').animate({
+                left:-1400
+            },00,function(){
+                $('#page .section:nth-child(10) .sns2').animate({
+                    right:-1220 
+                },00);
+            });
+        };
         if(destination.anchor == "19page"){
             $('#page .section:nth-child(19) .l1').animate({
                 opacity:1
