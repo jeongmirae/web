@@ -62,12 +62,12 @@ ul{
 }
 
 #page .section:nth-child(2){
-    background: url(img/bg2-07.jpg) no-repeat;
+    background: url(img/bg2.jpg) no-repeat;
     background-size: 100% 100%;
     min-width: 1500px;
 }
 #page .section:nth-child(3){
-    background: url(img/b3-22.jpg) no-repeat;
+    background: url(img/bg3.jpg) no-repeat;
     background-size: 100% 100%;
     min-width: 1500px;
 }
@@ -85,7 +85,6 @@ ul{
     top: 350px;
     left: 650px;
     z-index: 3;
-
 }
 #page .section:nth-child(4) .box1 .con1{
     position: absolute;
@@ -119,11 +118,28 @@ ul{
     background: url(img/입학목업.jpg) no-repeat;
     background-size: 100% 100%;
     min-width: 1500px;
+    position: relative;
+}
+#page .section:nth-child(5) p{
+    position: absolute;
+    z-index: 3;
+    right: 200px;
+    top: 360px;
+    font-family: 'Noto Serif KR', serif;
+    color: rgb(100, 100, 100);
+    transform: rotate(12deg);
 }
 #page .section:nth-child(6){
-    background: url(img/bg6-10.png) no-repeat;
+    background: url(img/bg666.jpg) no-repeat;
     background-size: 100% 100%;
     min-width: 1500px;
+    position: relative;
+}
+#page .section:nth-child(6) p{
+    position: absolute;
+    bottom: 150px;
+    left: 210px;
+    z-index: 3;
 }
 #page .section:nth-child(7){
     background: url(img/bg7-11.png) no-repeat;
@@ -131,6 +147,21 @@ ul{
     position: relative;
     overflow: hidden;
     min-width: 1500px;
+}
+/* #page .section:nth-child(7) p{
+    position: absolute;
+    bottom: 100px;
+    right: 380px;
+    font-family: 'Noto Serif KR', serif;
+} */
+#page .section:nth-child(7) p{
+    position: absolute;
+    top: 260px;
+    left: 408px;
+    font-family: 'Noto Serif KR', serif;
+    color: rgb(100, 100, 100);
+    z-index: 5;
+    opacity: 0;
 }
 #page .section:nth-child(7) .t1{
     position: absolute;
@@ -166,6 +197,16 @@ ul{
     background: url(img/bg8.jpg) no-repeat;
     background-size: 100% 100%;
     min-width: 1500px;
+    position: relative;
+}
+#page .section:nth-child(8) p{
+    position: absolute;
+    bottom: 100px;
+    left: 845px;
+    font-family: 'Noto Serif KR', serif;
+    color: rgb(100, 100, 100);
+    z-index: 5;
+    transform: rotate(12deg);
 }
 #page .section:nth-child(9){
     background: url(img/bg9.jpg) no-repeat;
@@ -179,6 +220,16 @@ ul{
     position: relative;
     overflow: hidden;
 }
+#page .section:nth-child(10) p{
+    position: absolute;
+    top: 265px;
+    left: 935px;
+    font-family: 'Noto Serif KR', serif;
+    color: rgb(100, 100, 100);
+    z-index: 5;
+    transform: rotate(68deg);
+    opacity: 0;
+}
 #page .section:nth-child(10) .sns1{
     position: absolute;
     top: 0px;
@@ -188,7 +239,7 @@ ul{
 }
 #page .section:nth-child(10) .sns2{
     position: absolute;
-    top: 0px;
+    top: 75px;
     right: -1220px;
     z-index: 3;
     transition: all 0.3s;

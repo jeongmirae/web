@@ -50,13 +50,21 @@ $('#page').fullpage({
             $('.section:nth-child(7) .t2').addClass('t2ani');
             $('.section:nth-child(7) .t3').animate({
                 opacity:1
-            },500);
+            },500,function(){
+                $('.section:nth-child(7) p').animate({
+                    opacity:1
+                },500);
+            });
         }else{
             $('.section:nth-child(7) .t1').removeClass('t1ani');
             $('.section:nth-child(7) .t2').removeClass('t2ani');
             $('.section:nth-child(7) .t3').animate({
                 opacity:0,
-            },00);
+            },00,function(){
+                $('.section:nth-child(7) p').animate({
+                    opacity:0
+                },00);
+            });
         }
         if(destination.anchor == "10page"){
             $('#page .section:nth-child(10) .sns1').animate({
@@ -64,7 +72,11 @@ $('#page').fullpage({
             },300,function(){
                 $('#page .section:nth-child(10) .sns2').animate({
                     right:0
-                },300);
+                },300,function(){
+                    $('#page .section:nth-child(10) p').animate({
+                        opacity:1
+                    },500);
+                });
             });
         }else{
             $('#page .section:nth-child(10) .sns1').animate({
@@ -72,7 +84,11 @@ $('#page').fullpage({
             },00,function(){
                 $('#page .section:nth-child(10) .sns2').animate({
                     right:-1220 
-                },00);
+                },00,function(){
+                    $('#page .section:nth-child(10) p').animate({
+                        opacity:0
+                    },00);
+                });
             });
         };
         if(destination.anchor == "19page"){
