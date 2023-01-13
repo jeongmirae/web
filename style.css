@@ -130,7 +130,7 @@ ul{
     transform: rotate(12deg);
 }
 #page .section:nth-child(6){
-    background: url(img/bg666.jpg) no-repeat;
+    background: url(img/bg6.jpg) no-repeat;
     background-size: 100% 100%;
     min-width: 1500px;
     position: relative;
