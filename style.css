@@ -10,19 +10,19 @@ ul{
 }
 
 #page .section:nth-child(1){
-    background:url(img/bg1-08.jpg) no-repeat;
+    background:url(img/bg1-1-28.jpg) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
     min-height: 800px;
     position: relative;
 }
 #page .section:nth-child(1) #n1{
     width:240px;
     font-family: 'Noto Serif KR', serif;
-    color: #030081;
+    color: #00009c;
     font-size: 23px;
     position: absolute;
-    bottom: 285px;
+    bottom: 315px;
     left: 50%;
     transform: translateX(-50%);
     height: 30px;
@@ -44,10 +44,10 @@ ul{
 #page .section:nth-child(1) #n2{
     width:252px;
     font-family: 'Noto Serif KR', serif;
-    color: #030081;
+    color: #00009c;
     font-size: 23px;
     position: absolute;
-    bottom: 245px;
+    bottom: 275px;
     left: 50%;
     transform: translateX(-50%);
     white-space:nowrap;
@@ -62,28 +62,35 @@ ul{
 }
 
 #page .section:nth-child(2){
-    background: url(img/bg2.jpg) no-repeat;
+    background: url(img/bg2-06.jpg) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
 }
 #page .section:nth-child(3){
-    background: url(img/bg3.jpg) no-repeat;
+    background: url(img/bg3-20.jpg) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
 }
 #page .section:nth-child(4){
     background: url(img/bg4-25.png) top/contain no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
-    position: relative;
+    min-width: 1200px;
+    /* position: relative; */
     overflow: hidden;
+}
+#page .section:nth-child(4) .box2{
+    position: relative;
+    width: 1200px;
+    height: 900px;
+    min-width: 1200px;
+    margin: auto;
 }
 #page .section:nth-child(4) .box1{
     position: absolute;
     width: 200px;
     height: 30px;
     top: 350px;
-    left: 650px;
+    left: 250px;
     z-index: 3;
 }
 #page .section:nth-child(4) .box1 .con1{
@@ -117,8 +124,13 @@ ul{
 #page .section:nth-child(5){
     background: url(img/입학목업.jpg) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
     position: relative;
+}
+#page .section:nth-child(5) img{
+    position: absolute;
+    right: 40px;
+    top: 50px;
 }
 #page .section:nth-child(5) p{
     position: absolute;
@@ -132,7 +144,7 @@ ul{
 #page .section:nth-child(6){
     background: url(img/bg6.jpg) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
     position: relative;
 }
 #page .section:nth-child(6) p{
@@ -146,7 +158,7 @@ ul{
     background-size: 100% 100%;
     position: relative;
     overflow: hidden;
-    min-width: 1500px;
+    min-width: 1200px;
 }
 /* #page .section:nth-child(7) p{
     position: absolute;
@@ -154,7 +166,7 @@ ul{
     right: 380px;
     font-family: 'Noto Serif KR', serif;
 } */
-#page .section:nth-child(7) p{
+#page .section:nth-child(7) .txt1{
     position: absolute;
     top: 260px;
     left: 408px;
@@ -162,6 +174,11 @@ ul{
     color: rgb(100, 100, 100);
     z-index: 5;
     opacity: 0;
+}
+#page .section:nth-child(7) .rat{
+    position: absolute;
+    right: 200px;
+    top: 50px;
 }
 #page .section:nth-child(7) .t1{
     position: absolute;
@@ -196,8 +213,18 @@ ul{
 #page .section:nth-child(8){
     background: url(img/bg8.jpg) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
     position: relative;
+}
+#page .section:nth-child(8) img:nth-of-type(1){
+    position: absolute;
+    bottom: 50px;
+    left: 100px;
+}
+#page .section:nth-child(8) img:nth-of-type(2){
+    position: absolute;
+    top: 90px;
+    right: 120px;
 }
 #page .section:nth-child(8) p{
     position: absolute;
@@ -209,16 +236,21 @@ ul{
     transform: rotate(12deg);
 }
 #page .section:nth-child(9){
-    background: url(img/bg9.jpg) no-repeat;
+    background: url(img/bg9-20.jpg) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
 }
 #page .section:nth-child(10){
     background: url(img/bg10-1.jpg) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
     position: relative;
     overflow: hidden;
+}
+#page .section:nth-child(10) img:nth-of-type(1){
+    position: absolute;
+    top: 50px;
+    right: 150px;
 }
 #page .section:nth-child(10) p{
     position: absolute;
@@ -245,14 +277,14 @@ ul{
     transition: all 0.3s;
 }
 #page .section:nth-child(11){
-    background: url(img/bg11.jpg) no-repeat;
+    background: url(img/bg11-20.jpg) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
 }
 #page .section:nth-child(12){
     background: url(img/bg12.jpg) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
     position: relative;
 }
 #page .section:nth-child(12) p{
@@ -263,18 +295,18 @@ ul{
 #page .section:nth-child(13){
     background: url(img/bg13-05.png) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
 }
 #page .section:nth-child(14){
     background: url(img/bg14.jpg) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
 }
 #page .section:nth-child(15){
     background: url(img/bg15.jpg) no-repeat;
     background-size: 100% 100%;
     position: relative;
-    min-width: 1500px;
+    min-width: 1200px;
 }
 #page .section:nth-child(15) p{
     position: absolute;
@@ -284,20 +316,20 @@ ul{
 #page .section:nth-child(16){
     background: url(img/bg16.jpg) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
 }
 #page .section:nth-child(17){
     background: url(img/bg177.jpg) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
 }
 #page .section:nth-child(18){
     background: url(img/bg18.jpg) no-repeat;
     background-size: 100% 100%;
-    min-width: 1500px;
+    min-width: 1200px;
 }
 #page .section:nth-child(19){
-    background: url(img/bg19.jpg) no-repeat;
+    background: url(img/bg19-24.jpg) no-repeat;
     background-size: 100% 100%;
     position: absolute;
     min-width: 1920px;
@@ -352,7 +384,7 @@ ul{
     transition: all 1s 0.2s;
 }
 #page .section:nth-child(4) .c1ani{
-    left: 200px !important;
+    left: -150px !important;
     top: 80px !important;
 }
 #page .section:nth-child(4) #c1:hover{
@@ -367,7 +399,7 @@ ul{
     transition: all 1s;
 }
 #page .section:nth-child(4) .c2ani{
-    left: 50px !important;
+    left: -200px !important;
     bottom: 50px !important;
 }
 #page .section:nth-child(4) #c2:hover{
@@ -382,8 +414,8 @@ ul{
     transition: all 0.7s 0.2s;
 }
 #page .section:nth-child(4) .c3ani{
-    left: 650px !important;
-    top: 450px !important;
+    left: 250px !important;
+    top: 400px !important;
 }
 #page .section:nth-child(4) #c3:hover{
     transform: scale(2);
@@ -397,8 +429,8 @@ ul{
     transition: all 1s 0.4s;
 }
 #page .section:nth-child(4) .c4ani{
-    left: 1280px !important;
-    top: 600px !important;
+    left: 880px !important;
+    top: 550px !important;
 }
 #page .section:nth-child(4) #c4:hover{
     transform: rotate(30deg);
@@ -412,7 +444,7 @@ ul{
     transition: all 0.5s;
 }
 #page .section:nth-child(4) .c5ani{
-    left: 1550px !important;
+    left: 1050px !important;
     top: 50px !important;
 }
 #page .section:nth-child(4) #c5:hover{
@@ -427,7 +459,7 @@ ul{
     transition: all 1s;
 }
 #page .section:nth-child(4) .c6ani{
-    left: 960px !important;
+    left: 660px !important;
     top: 230px !important;
 }
 #page .section:nth-child(4) #c6:hover{
@@ -442,7 +474,7 @@ ul{
     transition: all 0.7s;
 }
 #page .section:nth-child(4) .c7ani{
-    left: 450px !important;
+    left: 250px !important;
     top: -100px !important;
 }
 #page .section:nth-child(4) #c7:hover{
@@ -457,7 +489,7 @@ ul{
     transition: all 0.7s;
 }
 #page .section:nth-child(4) .c8ani{
-    left: 1730px !important;
+    left: 1330px !important;
     top: 420px !important;
 }
 #page .section:nth-child(4) #c8:hover{
@@ -472,8 +504,8 @@ ul{
     transition: all 0.5s 0.2s;
 }
 #page .section:nth-child(4) .c9ani{
-    left: 450px !important;
-    bottom: 240px !important;
+    left: 150px !important;
+    bottom: 210px !important;
 }
 #page .section:nth-child(4) #c10{
     position: absolute;
@@ -484,8 +516,8 @@ ul{
     transition: all 0.5s;
 }
 #page .section:nth-child(4) .c10ani{
-    left: 80px !important;
-    top: 400px !important;
+    left: 60px !important;
+    top: 450px !important;
 }
 #page .section:nth-child(4) #c11{
     position: absolute;
@@ -496,7 +528,7 @@ ul{
     transition: all 0.5s ;
 }
 #page .section:nth-child(4) .c11ani{
-    left: 1180px !important;
+    left:720px !important;
     top: 750px !important;
 }
 #page .section:nth-child(4) #c12{
@@ -508,7 +540,7 @@ ul{
     transition: all 0.5s 0.4s;
 }
 #page .section:nth-child(4) .c12ani{
-    left: 30px !important;
+    left: -300px !important;
     top: 70px !important;
 }
 #page .section:nth-child(4) #c13{
@@ -520,7 +552,7 @@ ul{
     transition: all 0.5s 0.4s;
 }
 #page .section:nth-child(4) .c13ani{
-    left: 350px !important;
+    left: 170px !important;
     top: 760px !important;
 }
 #page .section:nth-child(4) #c14{
@@ -533,7 +565,7 @@ ul{
     transform: rotateZ(-30deg);
 }
 #page .section:nth-child(4) .c14ani{
-    left: 1330px !important;
+    left: 1230px !important;
     top: 10px !important;
 }
 
